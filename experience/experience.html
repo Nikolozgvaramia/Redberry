@@ -16,23 +16,31 @@
             <div class="line"></div>
         </div>
         <div class="All-inputs">
-            <form class="position-form">
+            <form class="position-form" onchange="checkPosition()" >
                 <label class="position-label" id="position-label" >თანამდებობა</label>
-                <input type="text" class="position-input" id="position-input"   placeholder="დეველოპერი,დიზაინერი, ა.შ" />
+                <input type="text" class="position-input" id="position-input"   placeholder="დეველოპერი,დიზაინერი, ა.შ" onchange="anzor(event)"  />
                 <p class="position-p"  id="position-p" >მინიმუმ 2 სიმბოლო</p>
+                <img src="../image/Green.svg" id="greenIcon">
+                    <img src="../image/Red.svg" id="redIcon">
             </form>
-            <form class="employer-form">
+            <form class="employer-form" onchange="checkEmployer()" >
                 <label class="employer-label" id="employer-label" >დამსაქმებელი</label>
-                <input type="text" class="employer-input" id="employer-input"  placeholder="დამსაქმებელი" />
+                <input type="text" class="employer-input" id="employer-input"  placeholder="დამსაქმებელი"  onchange="mumladze(event)" />
                 <p class="employer-p" id="employer-p" >მინიმუმ 2 სიმბოლო</p>
+                <img src="../image/Green.svg" id="greenIcon1">
+                <img src="../image/Red.svg" id="redIcon1">
+            </form>
+            <form class="description">
+                <label class="description-label">აღწერა</label>
+                <input type="text" class="description-input" id="">
             </form>
             <form class="start-number">
                 <label class="start-number-label">დაწყების რიცხვი</label>
-                <input type="text" class="start-number-input"  placeholder="mm / dd / yyyy">
+                <input type="text" class="start-number-input"  placeholder="mm / dd / yyyy" id="start-number-input" onchange="startcheckDate()" >
             </form>
             <form class="finish-number">
-                <label class="finish-number-label">დამთავრების</label>
-                <input type="text" class="finish-number-input"  placeholder="mm / dd / yyyy">
+                <label class="finish-number-label">დამთავრების რიცხვი</label>
+                <input type="text" class="finish-number-input"  placeholder="mm / dd / yyyy" id="finish-number-input" onchange="endcheckDate()">
             </form>
         </div>
         <button class="more-experience-btn">მეტი გამოცდილების დამატება</button>
@@ -41,7 +49,10 @@
     </section>
 
     <section class="right-section">
-
+        <span id="anzor"></span>
+        <span id="mumladze"></span>
+        <span id="email"></span>
+        
     </section>
     <script src="./experience.js"></script>
 </body>

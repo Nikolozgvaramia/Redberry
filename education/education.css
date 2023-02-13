@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../fonts/HelveticaNeue\ \(1\).ttc);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.left-section {
+    width: 1098px;
+    height: 1080px;
+}
+
+.right-section {
+    position: absolute;
+    width: 822px;
+    height: 1080px;
+    right: 0px;
+    top: 0px;
+}
+
+
+
+.education-info > img { 
+    position: absolute;
+    width: 9.21px;
+    height: 16px;
+    left: 62px;
+    top: 57px;
+ }
+ 
+ .education-info > h1 {
+     font-family: 'Helvetica Neue';
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 29px;
+     color: #1A1A1A;
+     position: absolute;
+     left: 149px;
+     top: 47px;
+ }
+ 
+ .education-info > h2 {
+     font-family: 'Helvetica Neue';
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 24px;
+     width: 29px;
+     height: 24px;
+     position: absolute;
+     left: 920px;
+     top: 49px;
+ }
+ 
+ .line {
+     position: absolute;
+     width: 798px;
+     height: 0px;
+     left: 150px;
+     top: 88px;
+     border: 1px solid #1A1A1A;
+ 
+ }
+
+ .all-inputs {
+    margin-left: 126px;
+ }
+ 
+ .educational {
+    margin-top: 157px;
+
+ }
+
+ .educational > label {
+    display: block;
+ }
+
+.educational > input {
+    box-sizing: border-box;
+    width: 798px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+}
+
+
+.start-number {
+    margin-top: 89px;
+  }
+  
+  .start-number-label {
+      display: block;
+  }
+  
+  
+  .start-number-input {
+     box-sizing: border-box;
+     width: 371px;
+     height: 48px;
+     background: #FFFFFF;
+     border: 1px solid #BCBCBC;
+     border-radius: 4px;
+  }
+  
+  .finish-number {  
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 8px 24px;
+      gap: 8px;
+      position: absolute;
+      width: 419px;
+      height: 93px;
+      left: calc(50% - 419px/2 - 197.5px);
+      top: 320px;
+      margin-left: 15px;
+  }
+  
+  .finish-number-label {
+      display: block;
+  }
+  
+  .finish-number-input {
+      box-sizing: border-box;
+      width: 371px;
+      height: 48px;
+      background: #FFFFFF;
+      border: 1px solid #BCBCBC;
+      border-radius: 4px;
+      
+  }
+  
+
+  .description {
+     box-sizing: border-box;
+     width: 798px;
+     height: 179px;
+     background: #FFFFFF;
+     border: 1px solid #BCBCBC;
+     margin-top: 20px;
+}
+
+.description-input1{
+    box-sizing: border-box;
+    width: 798px;
+    height: 123px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(fonts/HelveticaNeue\ \(1\).ttc);
+    src: url(../fonts/HelveticaNeue\ \(1\).ttc);
 }
 
 * {
@@ -146,19 +146,17 @@
 }
 
 .finish-number {  
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 8px 24px;
     gap: 8px;
-    
     position: absolute;
     width: 419px;
     height: 93px;
     left: calc(50% - 419px/2 - 197.5px);
     top: 431px;
-    margin-top: 125px;
+    margin-top: 190px;
     margin-left: 15px;
 }
 
@@ -173,7 +171,7 @@
     background: #FFFFFF;
     border: 1px solid #BCBCBC;
     border-radius: 4px;
-
+    
 }
 
 
@@ -226,3 +224,36 @@
     color: white;
     cursor: pointer;
 }
+
+
+
+#greenIcon {
+    visibility: hidden;
+}
+
+#redIcon {
+    visibility: hidden;
+}
+
+#greenIcon1 {
+    visibility: hidden;
+}
+
+#redIcon1 {
+    visibility: hidden;
+}
+
+
+.description {
+    
+}
+
+.description > label {
+
+}
+
+.description-input {
+    
+}
+
+

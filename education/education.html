@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="../education/education.css">
+</head>
+<body>
+    <section class="left-section">
+        <div class="education-info">
+            <img src="../image/Vector.png" >
+            <h1>ᲞᲘᲠᲐᲓᲘ ᲘᲜᲤᲝ</h1>
+            <h2>3/3</h2>
+            <div class="line"></div>
+        </div>
+        <div class="all-inputs">
+            <form class="educational">
+                <label>სასწავლებელი</label>
+                <input type="text" placeholder="სასწავლებელი" id="educational-input" />
+                <p id="educational-p">მინიმუმ 2 სიმბოლო</p>
+            </form>
+            <form class="start-number">
+                <label class="start-number-label">დაწყების რიცხვი</label>
+                <input type="text" class="start-number-input"  placeholder="mm / dd / yyyy" id="start-number-input" onchange="startcheckDate()" >
+            </form>
+            <form class="finish-number">
+                <label class="finish-number-label">დამთავრების რიცხვი</label>
+                <input type="text" class="finish-number-input"  placeholder="mm / dd / yyyy" id="finish-number-input" onchange="endcheckDate()">
+            </form>
+            <form class="description">
+                <label>აღწერა</label>
+                <input type="text" class="description-input1" id="description-input1">
+            </form>
+        </div>
+    </section>
+    <section class="right-section">
+        
+    </section>
+    <script src="../education/education.js"></script>
+</body>
+</html>

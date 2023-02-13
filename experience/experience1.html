@@ -18,12 +18,12 @@
         <div class="All-inputs">
             <form class="position-form">
                 <label class="position-label" id="position-label" >თანამდებობა</label>
-                <input type="text" class="position-input" id="position-input"   placeholder="დეველოპერი,დიზაინერი, ა.შ" />
+                <input type="text" class="position-input" id="position-input"   placeholder="დეველოპერი,დიზაინერი, ა.შ" onchange="position(event)"  />
                 <p class="position-p"  id="position-p" >მინიმუმ 2 სიმბოლო</p>
             </form>
             <form class="employer-form">
                 <label class="employer-label" id="employer-label" >დამსაქმებელი</label>
-                <input type="text" class="employer-input" id="employer-input"  placeholder="დამსაქმებელი" />
+                <input type="text" class="employer-input" id="employer-input"  placeholder="დამსაქმებელი" onchange="employer(event)" />
                 <p class="employer-p" id="employer-p" >მინიმუმ 2 სიმბოლო</p>
             </form>
             <form class="start-number">
@@ -43,7 +43,9 @@
     </section>
 
     <section class="right-section">
-
+        <div id="position"></div>
+        <div id="employer"></div>
     </section>
+    <script src="../experience/experience1.js"></script>
 </body>
 </html>

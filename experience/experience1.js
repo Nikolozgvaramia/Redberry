@@ -81,19 +81,15 @@ const endcheckDate = () => {
     }
 }
 
-const anzor = function(event) {
-    const name  =  document.getElementById("anzor");
-    name.innerText = event.target.value;
+const position = function(event) {
+    const positionn =  document.getElementById("anzor");
+    positionn.innerText = event.target.value;
 }
 
 
-const mumladze = (event) => {
-    const mumladzesurname = document.getElementById("mumladze");
-    mumladzesurname.innerText = event.target.value ;
+const employer = (event) => {
+    const employerr = document.getElementById("mumladze");
+    employerr.innerText = event.target.value ;
 }
 
 
-const email = (event) => {
-    const useremail = document.getElementById("email");
-    useremail.innerText = event.target.value ;
-}

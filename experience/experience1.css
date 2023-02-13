@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(fonts/HelveticaNeue\ \(1\).ttc);
+    src: url(../fonts/HelveticaNeue\ \(1\).ttc);
 }
 
 * {
@@ -238,16 +238,13 @@
     border-radius: 7px;
 }
 
-.description-input {
-    
-box-sizing: border-box;
-
-width: 798px;
-height: 123px;
-
-background: #FFFFFF;
-border: 1px solid #BCBCBC;
-border-radius: 4px;
-margin-top: 20px;
-
+.description-input {   
+    box-sizing: border-box;
+    width: 798px;
+    height: 123px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px; 
+    margin-top: 20px;
 }
+
