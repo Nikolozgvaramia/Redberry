@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private</title>
+    <link rel="stylesheet" href="./private.css">
+</head>
+<body>
+    <section class="left-section">
+        <div class="personal-info">
+            <img src="../image/Vector.png" >
+            <h1>ᲞᲘᲠᲐᲓᲘ ᲘᲜᲤᲝ</h1>
+            <h2>1/3</h2>
+            <div class="line"></div>
+        </div>
+        <div class="All-inputs">
+            <div class="forms">"
+            <form class="form" id="form" onchange= "checkname()" >
+                <label id="namelabel">სახელი</label>
+                <input type="text" id="firstname"  class="input" placeholder="ანზორ"  onchange="anzor(event)"  />
+                <img src="../image/Green.svg" id="greenIcon">
+                <img src="../image/Red.svg" id="redIcon">
+                <p id="name-p">მინიმუმ 2 ასო, ქართული ასოები</p>
+            </form>
+            <form class="form1" onchange="checkLastName()" >
+                <label>გვარი</label>
+                <input type="text" id="lastname" class="input1" placeholder="მუმლაძე" onchange="mumladze(event)" />
+                <p id="surname-p">მინიმუმ 2 ასო, ქართული ასოები</p>
+            </form>
+            </div>
+            <div class="upload-img">
+                <p>პირადი ფოტოს ატვირთვა    
+                </p>
+                <button id="upload-button">ატვირთვა</button>
+            </div>
+            <div class="my-information">
+                <form class="form2">
+                    <label>ჩემ შესახებ (არასავალდებულო)</label>
+                    <input type="text" id="aboutme" placeholder="ზოგადი ინფო შენ შესახებ" onchange="aboutyou(event)"  />
+                </form>
+            </div>
+            <div class="emailandphone">
+                <form class="form3" id="email-form" onchange="checkemail()" >
+                    <label id="email-label">ელ.ფოსტა</label>
+                    <input type="text" id="email-input" placeholder="anzorr666@redberry.ge" onchange="email(event)" >
+                    <p id="email-p">უნდა მთავრდებოდეს @redberry.ge-ით</p>
+                    <img src="../image/Green.svg" id="email-greenIcon">
+                    <img src="../image/Red.svg" id="number-redIcon">
+                </form>
+                <form class="form4" id="number-form" onchange="checkNumber()" >
+                    <label id="number-label">მობილურის ნომერი</label>
+                    <input type="text" id="number-input" placeholder="+995 551 12 34 56"  onchange="phoneNumber(event)" >
+                    <p>უნდა აკმაყოფილებდეს ქართული მობილურის ნომრის ფორმატს</p>
+                    <img src="../image/Green.svg" id="number-greenIcon">
+                    <img src="../image/Red.svg" id="number-redIcon">
+                </form>
+            </div>
+        </div>
+        <button class="right-button" id="continueButton" >
+            ᲨᲔᲛᲓᲔᲒᲘ
+        </button>
+    </section>
+    <section class="right-section">
+        <span class="anzor" id="anzor"></span>
+       <span class="mumladze" id="mumladze"></span>
+       <span class="aboutyou" id="aboutyou"></span>
+       <span class="email" id="email"></span>
+       <span class="phonenumber" id="phonenumber" ></span>
+       <p><img id="uploadimg"  width="200" class="uploaded-image"/></p>
+       <!-- <img src="../image/Rectangle 9.svg" class="photo" id="photo"> -->
+    </section>
+    <script src="./app1.js"></script>
+</body>
+</html>

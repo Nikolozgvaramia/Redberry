@@ -1,0 +1,392 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../fonts/HelveticaNeue\ \(1\).ttc);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left-section {
+    width: 1098px;
+    height: 1080px;
+}
+
+.right-section {
+    position: absolute;
+    width: 822px;
+    height: 1080px;
+    right: 0px;
+    top: 0px;
+}
+
+.personal-info > img { 
+   position: absolute;
+   width: 9.21px;
+   height: 16px;
+   left: 62px;
+   top: 57px;
+}
+
+.personal-info > h1 {
+    font-family: 'Helvetica Neue';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1A1A1A;
+    position: absolute;
+    left: 149px;
+    top: 47px;
+}
+
+.personal-info > h2 {
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 29px;
+    height: 24px;
+    position: absolute;
+    left: 920px;
+    top: 49px;
+}
+
+.line {
+    position: absolute;
+    width: 798px;
+    height: 0px;
+    left: 150px;
+    top: 88px;
+    border: 1px solid #1A1A1A;
+}
+
+.All-inputs {
+    margin-left: 150px;
+}
+
+.forms {
+    margin-top: 194px;
+    display: flex;
+    gap: 56px;
+}
+
+.form > p { 
+   font-family: 'Helvetica Neue';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 21px;
+   color: #2E2E2E;
+   margin-top: 8px;
+}
+
+.form > label {
+    display: flex;
+    align-items: center;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    width: 371px;
+    height: 21px;
+}
+
+.form > .input {
+    box-sizing: border-box;
+    width: 371px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    margin-top: 8px;
+    border: 1px solid black;
+}
+
+.form1 > p {   
+   font-family: 'Helvetica Neue';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 21px;
+   color: #2E2E2E;
+   margin-top: 8px;
+}
+
+
+.form1 > label {
+    display: flex;
+    align-items: center;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    width: 371px;
+    height: 21px;
+}
+
+.form1 > .input1 {
+   box-sizing: border-box;
+   width: 371px;
+   height: 48px;
+   background: #FFFFFF;
+   border: 1px solid #BCBCBC;
+   border-radius: 4px;
+   margin-top: 8px;
+   border: 1px solid black;
+}
+
+.upload-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.upload-img > p {  
+  position: absolute;
+  width: 232px;
+  height: 22px;
+  left: 150px;
+  top: 325px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.upload-img >  button {   
+    padding: 4px 19px 6px 19px;
+    gap: 10px;
+    background-color: #0E80BF;
+    border-radius: 4px;
+    color: white;   
+    position: absolute;
+    width: 107px;
+    height: 27px;
+    left: 401px;
+    top: 325px;
+    cursor: pointer;
+}
+
+.form2 {
+    margin-top: 120px;
+}
+
+.form2 > label {
+    display: block;
+    height: 21px;
+    width: 798px;
+    left: 24px;
+    top: 8px;
+    border-radius: nullpx;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.form2 > input {
+    width: 798px;
+    height: 103px;
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+}
+
+.form2 > input[placeholder] {
+   font-family: 'Helvetica Neue';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+   padding: 13px 16px 69px 16px;
+}
+
+.form3 > p { 
+   font-family: 'Helvetica Neue';
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 21px;
+   margin-top: 8px;
+   color: #2E2E2E;
+
+
+}
+
+.form3 {
+    margin-top: 33px;
+}
+
+.form3 > label {
+    display: block;
+}
+
+.form3 > input {
+   width: 798px;
+   height: 48px;
+   background: #FFFFFF;
+   border: 1px solid #BCBCBC;
+   border-radius: 4px;
+}
+
+.form3 > input[placeholder] {
+   font-family: 'Helvetica Neue';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+   padding: 14px 16px;
+}
+
+.form4 > p {
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 8px;
+    color: #2E2E2E;
+}
+
+.form4 {
+    margin-top: 87px;
+}
+
+.form4 > label {
+    display: block;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.form4 > input {   
+   width: 798px;
+   height: 48px;
+   background: #FFFFFF;
+   border: 1px solid #BCBCBC;
+   border-radius: 4px;
+}
+
+.form4 > input[placeholder] {
+    padding: 14px 16px;
+}
+
+.right-button {
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    background-color: #6B40E3;
+    padding: 14px 35px;
+    margin-left: 797px;
+    margin-bottom: 65px;
+    width: 151px;
+    height: 48px;
+    cursor: pointer;
+}
+
+
+#greenIcon {
+    position: absolute;
+    left: 490px;
+    top: 240px;
+    visibility: hidden;
+    
+}
+
+#redIcon {
+    position: absolute;
+    left: 490px;
+    top: 237px;
+    visibility: hidden;
+}
+
+#email-greenIcon {
+    visibility: hidden;
+}
+
+#number-redIcon {
+    visibility: hidden;
+}
+#number-greenIcon {
+    visibility: hidden;
+}
+#number-redIcon {
+    visibility: hidden;
+}
+
+
+.anzor {
+    color: #F93B1D; 
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    position: absolute;
+    width: 123px;
+    height: 42px;
+    left: 80px;
+    top: 68px;
+}
+
+.mumladze {
+    color: #F93B1D;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    position: absolute;
+    width: 145px;
+    height: 42px;
+    left: 223px;
+    top: 68px;
+} 
+
+
+.email {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px; 
+    position: absolute;
+    width: 179px;
+    height: 21px;
+    left: 111px;
+    top: 127px;
+}
+
+.phonenumber {
+    position: absolute;
+    width: 151px;
+    height: 21px;
+    left: 111px;
+    top: 158px; 
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.aboutyou {
+    position: absolute;
+    width: 118px;
+    height: 22px;
+    left: 80px;
+    top: 213px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #F93B1D;
+}
+
+
+/* .photo {
+    visibility: hidden;
+} */
